@@ -9,9 +9,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Metotlar", "Metotlar\Metotl
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Classes", "Classes\Classes.csproj", "{C02EC48E-7AF4-4B06-B2E8-A08878F22793}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinFormsApp1", "WinFormsApp1\WinFormsApp1.csproj", "{3E7BEC9B-7FE8-42B8-9FDE-EA6BA68862F3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WinFormsApp1", "WinFormsApp1\WinFormsApp1.csproj", "{3E7BEC9B-7FE8-42B8-9FDE-EA6BA68862F3}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Interfaces", "Interfaces\Interfaces.csproj", "{12881DBC-996A-4F1C-84C7-1299E0D16404}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InterfacesDemo", "InterfacesDemo\InterfacesDemo.csproj", "{7B1F2497-5D43-4AFD-A794-75B04B6E7319}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{12881DBC-996A-4F1C-84C7-1299E0D16404}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{12881DBC-996A-4F1C-84C7-1299E0D16404}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{12881DBC-996A-4F1C-84C7-1299E0D16404}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7B1F2497-5D43-4AFD-A794-75B04B6E7319}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B1F2497-5D43-4AFD-A794-75B04B6E7319}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B1F2497-5D43-4AFD-A794-75B04B6E7319}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B1F2497-5D43-4AFD-A794-75B04B6E7319}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
