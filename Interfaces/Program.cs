@@ -11,6 +11,20 @@ namespace Interfaces
         static void Main(string[] args)
         {
             //InterfacesIntro();
+
+            //DatabaseManager dbManager = new DatabaseManager();
+            //dbManager.Function(new SqlServerCustomerDal());
+            //dbManager.Function(new OracleCustomerDal());
+
+            ICustomerDal[] customerDals = new ICustomerDal[2]
+            {
+                new SqlServerCustomerDal(),
+                new OracleCustomerDal()
+            };
+            foreach (var customerDal in customerDals)
+            {
+                customerDal.Add();
+            }
         }
 
         private static void InterfacesIntro()
