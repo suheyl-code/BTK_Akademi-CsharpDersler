@@ -21,6 +21,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InterfacesDemo3", "Interfac
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TryCatchError", "TryCatchError\TryCatchError.csproj", "{0C56CE46-C544-4922-91CF-0EE95C60F1DE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdoNetDemo", "AdoNetDemo\AdoNetDemo.csproj", "{3F63F5B8-37A3-49ED-8F71-BA6C38343EA6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +65,10 @@ Global
 		{0C56CE46-C544-4922-91CF-0EE95C60F1DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0C56CE46-C544-4922-91CF-0EE95C60F1DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0C56CE46-C544-4922-91CF-0EE95C60F1DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3F63F5B8-37A3-49ED-8F71-BA6C38343EA6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F63F5B8-37A3-49ED-8F71-BA6C38343EA6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F63F5B8-37A3-49ED-8F71-BA6C38343EA6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F63F5B8-37A3-49ED-8F71-BA6C38343EA6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
