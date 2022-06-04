@@ -64,7 +64,14 @@ namespace AdoNetDemo
 
         private void btnRemove_Click(object sender, EventArgs e)
         {
-
+            int id = Convert.ToInt32(dgwProducts.CurrentRow.Cells[0].Value);
+            var messageBox = MessageBox.Show("Record will be deleted, are you sure?", "Alert", MessageBoxButtons.OKCancel);
+            if (messageBox.Equals(DialogResult.OK))
+            {
+                _productDal.Delete(id);
+                LoadData();
+                MessageBox.Show("Deleted!");
+            }
         }
     }
 }
