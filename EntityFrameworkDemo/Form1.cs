@@ -78,5 +78,16 @@ namespace EntityFrameworkDemo
             }
             
         }
+
+        public void SearchProduct(string key)
+        {
+            dgwProducts.DataSource = _productDal.GetAll().Where(p => 
+                p.Name.ToLower().Contains(key.ToLower())).ToList();
+        }
+
+        private void tbxSearch_TextChanged(object sender, EventArgs e)
+        {
+            SearchProduct(tbxSearch.Text);
+        }
     }
 }
